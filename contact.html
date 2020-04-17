@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <h4><a href="index.html">Acceuil</a></h4>
+  </head>
+  <body>
+    <h1>Où me trouver ?</h1>
+    <table cellspacing="10">
+      <tr>
+        <td>    <a href="https://twitter.com/Chipsman_">Twitter</a></td>
+      </tr>
+      <tr>
+        <td>    <p><img src="https://img.icons8.com/ios/25/000000/phone-office.png"/>: 0606060606</p></td>
+      </tr>
+    </table>
+      <form class="" action="index.html" method="post">
+        <label for="">Votre nom :</label>
+        <input type="text" name="yourName" value="" required>
+        <br>
+        <label for="">Votre eMail :</label>
+        <input type="email" name="yourMail" value="" required>
+        <br>
+        <label for="reasonList">La raison de votre contact</label>
+        <input list="reasons" name="reasonList" id="reasonList" value="" required>
+        <datalist id="reasons">
+          <option value="Offre emploi"></option>
+          <option value="Test"></option>
+        </datalist>
+        <br>
+        <textarea name="yourText" rows="8" cols="50" required></textarea>
+        <br>
+        <input type="submit" name="" value="Envoyer">
+        <br>
+      </form>
+  </body>
+</html>
